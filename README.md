@@ -29,17 +29,31 @@
 
 ## 🗂 Project Structure
 📦MCAL_Control_Programming
+
 ┣ 📁0_Rte : SWC 간 Interface
+
 ┣ 📁1_Common : 공통 Define 및 API
+
 ┣ 📁2_App
+
 ┃ ┣ 📁BswCom : CAN 통신
+
 ┃ ┣ 📁BswDcm : 진단 통신
+
 ┣ 📁3_EcuAbs : MCAL API 기반 동작
+
 ┣ 📁4_Cdd
+
 ┃ ┣ 📁CcpCustom : CCP 프로토콜
+
 ┣ 📁5_Bsw
+
 ┃ ┣ 📁MCalTraining: EB Tresos 생성 코드
+
 ┃ ┣ 📁Service : Infineon 제공 코드
+
 ┣ 📄ScuMain.c : 메인 루프
+
 ┣ 📄tc23x.lsl : Linker Script
+
 ┣ 📄SCU_Gen6_Training.lsl
